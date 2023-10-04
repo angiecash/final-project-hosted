@@ -1,0 +1,73 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="utf-8">
+        <title>Tal der drei Seelen | CONTACT</title>
+	<link rel="icon" type="image/x-icon" href="images/favicon.ico">
+        <meta name="author" content="Angela Cash">
+        <meta name="description" content="Resort in a valley of the Swiss Alps">
+
+        <!-- links to stylesheet -->
+        <link rel="stylesheet" href="https://use.typekit.net/hwd6ufb.css">
+        <link rel="preconnect" href="https://fonts.googleapis.com">
+        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+        <link href="https://fonts.googleapis.com/css2?family=Young+Serif&display=swap" rel="stylesheet">
+        <link rel="stylesheet" href="styles.css">
+    </head>
+    <body>
+        <header>
+            <div class="hero-image">
+                <div class="hero-text">
+                    <h1><a href="index.html">Tal der drei Seelen</a></h1>
+                    <nav>
+                        <ul>
+                            <li><a href="index.html">Home</a></li>
+                            <li><a href="#">Accommodations</a></li>
+                            <li><a href="#" class="active">Contact</a></li>
+                        </ul>
+                    </nav>
+                </div>
+            </div>
+        </header>
+        <main>
+            <div class="grid-contact">
+                <div class="header2">
+                    <h2>Contact Us</h2>
+                    <p>Please reach out to us with any questions or concerns. We are happy to help you plan your dream vacation with us!<br>Required fields marked with a *</p>
+                    <img class="img-contact" src="images/swiss-sunset.jpg" alt="Sunset in the Swiss Alps in front of a beautiful lake" width="710" height="270">
+                </div>
+                <form action="https://wp.zybooks.com/form-viewer.php" method="POST" target="_blank">
+                    <div class="form-left">
+                        <label for="my-name">Full Name (First and Last) <span class="required">*</span></label>
+                        <input type="text" name="my-name" id="my-name" required>
+
+                        <label for="my-email">Email Address<span class="required">*</span></label>
+                        <input type="email" name="my-email" id="my-email" required>
+                
+                        <label for="my-phone">Phone Number<span class="required">*</span></label>
+                        <input type="tel" name="my-phone" id="my-phone" required>
+                    </div>
+                    <div class="form-right">
+                        <fieldset>
+                            <legend>Preferred Contact Method <span class="required">*</span></legend>
+                            <input type="radio" name="contact-pref" id="pref-email" checked>
+                            <label for="pref-email">Email</label>
+                            <input type="radio" name="contact-pref" id="pref-phone">
+                            <label for="pref-phone">Phone</label>
+                        </fieldset>
+                        <label for="my-comments">Comments</label>
+                        <textarea name="my-comments" id="my-comments"></textarea>
+                        <input type="submit" name="my-submit" id="my-submit" value="Submit">
+                    </div>
+                </form>
+            </div>
+        </main>
+        <footer>
+            <p>Copyright &copy;2023 Tal der drei Seelen<br>
+            This site is for educational purposes only</p>
+            <!-- This script tag is included because it keeps the glitch in Chrome from happening -->
+            <!-- where transitions will run when the page loads. -->
+            <script> </script>
+        </footer>
+    </body>
+</html>
